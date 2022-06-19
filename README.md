@@ -1,2 +1,3 @@
 # Flashcards
-Studying flashcards app
+
+Flashcards app for students.
