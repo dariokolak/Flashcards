@@ -1,0 +1,12 @@
+.section {
+  padding: 2.4rem 0 2.4rem;
+}
+
+.error {
+  padding: 2.4rem;
+  background-color: rgba(228, 0, 42, 0.717);
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+  border-radius: 3px;
+}
