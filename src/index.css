@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* UTILS */
+
+.margin-bottom-sm-util {
+  margin-bottom: 1.6rem !important;
+}
+
+.margin-bottom-md-util {
+  margin-bottom: 3.2rem !important;
+}
+
+.align-text-right-util {
+  text-align: right !important;
+}
+.align-right-util {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 8rem;
+}
+
+.grid__col--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.list {
+  list-style: none;
+}
+
+@media (max-width: 59.375em) {
+  /* GENERAL */
+
+  .grid {
+    column-gap: 8rem;
+  }
+
+  .grid__col--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 37.5em) {
+  /* GENERAL */
+
+  .grid__col--3 {
+    grid-template-columns: 1fr;
+  }
+}

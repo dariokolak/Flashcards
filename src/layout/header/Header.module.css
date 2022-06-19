@@ -1,0 +1,49 @@
+.header {
+  height: 6rem;
+  background-image: linear-gradient(to right bottom, #de6262, #ffb88c);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 0 1.6rem;
+}
+
+.header__heading {
+  font-size: 3.2rem;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header__link:link,
+.header__link:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.header__link:hover,
+.header__btn:hover,
+.header__link.active {
+  border-bottom: 2px solid #fff;
+}
+
+.header__btn {
+  display: inline-block;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}

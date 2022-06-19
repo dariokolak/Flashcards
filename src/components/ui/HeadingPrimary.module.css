@@ -1,0 +1,12 @@
+.heading-primary {
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+
+  background-image: linear-gradient(to right bottom, #de6262, #ffb88c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
